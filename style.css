@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.background {
+  background-image: url(/j.png), url(/l.png), url(/o.png);
+  background-position: left -1% top -15%, right -7.5% top -1%,
+    left -5% bottom -10%;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 15%, 15%, 15%;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #062863;
+}
+.box {
+  background-color: white;
+  padding: 2.5rem;
+  margin: 1.5rem;
+  border-radius: 1.5rem;
+  height: 30rem;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 0rem;
+  font-weight: 500;
+}
+.intro {
+  text-align: center;
+  color: #2a2a2a;
+  margin-bottom: 1.75rem;
+  font-weight: 500;
+}
+.form {
+  max-width: 100%;
+}
+.container {
+  width: 30rem;
+  margin: 0 auto;
+}
+input {
+  padding: 1.5rem;
+  border: 1px solid #bdbcbc;
+  width: 100%;
+  border-radius: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.reset-password {
+  font-size: 0.8rem;
+  color: #0d60d8;
+  margin-bottom: 1.75rem;
+}
+button {
+  margin-top: 1.75rem;
+  width: 100%;
+  padding: 1.25rem;
+  background-color: #0d60d8;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+}
+.create-account {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 2.5rem;
+  color: black;
+}
+
+.create-account a {
+  color: #0d60d8;
+}
+.footer {
+  text-align: center;
+  font-size: 0.75rem;
+  color: white;
+  padding-top: 2.5rem;
+}
+.loginform {
+  size: 10rem;
+}
+.loginaccount {
+  color: #1755bf;
+}

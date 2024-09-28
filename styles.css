@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+header {
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.auth-buttons a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #3d4f60;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.hero-text {
+  flex: 1;
+
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.hero-text h1 {
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  align-items: center;
+}
+
+.btn-primary {
+  background-color: #3d4f60;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #f0f0f0;
+  color: #000;
+}
+.hero-image img {
+  width: 400px;
+}
